@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "tesstiacfeb16"
-
+ 
   tags = {
     Name        = "MyBucket"
     Environment = "Production"
